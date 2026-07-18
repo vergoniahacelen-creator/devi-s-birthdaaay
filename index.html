@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday My Devi ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+
+font-family:'Poppins',sans-serif;
+background:#F5E7FF;
+color:#4A2C62;
+overflow-x:hidden;
+
+}
+
+
+/* ============================= */
+/* HERO */
+/* ============================= */
+
+.hero{
+
+padding-top:120px;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+text-align:center;
+
+position:relative;
+
+}
+
+.hero h1{
+
+font-family:'Great Vibes',cursive;
+
+font-size:90px;
+
+line-height:1;
+
+color:#6B2B8A;
+
+margin-top:20px;
+
+}
+
+.hero h1 span{
+
+display:block;
+
+}
+
+.hero p{
+
+margin-top:35px;
+
+font-size:18px;
+
+color:#7D5B9A;
+
+max-width:500px;
+
+line-height:1.8;
+
+}
+
+.sparkle{
+
+position:absolute;
+font-size:25px;
+opacity:.6;
+
+animation:float 4s infinite ease-in-out;
+
+}
+
+.spark1{
+
+top:170px;
+left:20%;
+
+}
+
+.spark2{
+
+right:22%;
+top:330px;
+
+}
+
+.spark3{
+
+left:75%;
+top:150px;
+
+}
+
+@keyframes float{
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+}
+
+/* ============================= */
+/* CAKE SECTION */
+/* ============================= */
+
+.cake-box{
+
+margin-top:70px;
+
+width:520px;
+height:360px;
+
+background:white;
+
+border-radius:25px;
+
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.cake{
+
+position:relative;
+margin-bottom:30px;
+
+}
+
+.layer{
+
+width:130px;
+height:35px;
+
+border-radius:20px;
+
+margin:auto;
+
+}
+
+.layer1{
+
+background:#B793E8;
+
+}
+
+.layer2{
+
+background:#CDA3F4;
+
+margin-top:-4px;
+
+width:115px;
+
+}
+
+.layer3{
+
+background:#9F7DCC;
+
+margin-top:-4px;
+
+width:100px;
+
+}
+
+.candle{
+
+width:10px;
+height:55px;
+
+background:#D8B3FF;
+
+margin:auto;
+
+position:relative;
+
+margin-top:-95px;
+
+}
+
+.flame{
+
+position:absolute;
+
+width:16px;
+height:22px;
+
+background:orange;
+
+border-radius:50%;
+
+top:-20px;
+left:-3px;
+
+animation:flicker .4s infinite;
+
+}
+
+@keyframes flicker{
+
+50%{
+
+transform:scale(.8);
+
+opacity:.6;
+
+}
+
+}
+
+button{
+
+margin-top:35px;
+
+padding:14px 35px;
+
+border:none;
+
+border-radius:40px;
+
+background:linear-gradient(90deg,#7D4DBC,#BB7CEB);
+
+color:white;
+
+cursor:pointer;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+button:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 10px 20px rgba(0,0,0,.15);
+
+}
+
+/* ============================= */
+/* MUSIC PLAYER */
+/* ============================= */
+
+.music{
+
+margin-top:40px;
+
+width:520px;
+
+background:white;
+
+padding:20px;
+
+border-radius:18px;
+
+display:flex;
+
+align-items:center;
+
+gap:20px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.memories{
+
+margin-top:40px;
+
+width:520px;
+
+display:grid;
+
+grid-template-columns:repeat(2,minmax(0,1fr));
+
+gap:20px;
+
+}
+
+.memory-card{
+
+background:white;
+
+border-radius:24px;
+
+padding:18px;
+
+width:100%;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+position:relative;
+
+}
+
+.memory-card::before{
+
+content:'';
+
+position:absolute;
+
+inset:0;
+
+border:1px solid rgba(0,0,0,.05);
+
+border-radius:24px;
+
+pointer-events:none;
+
+}
+
+.memory-photo{
+
+width:100%;
+
+aspect-ratio:1;
+
+border-radius:18px;
+
+background-size:cover;
+
+background-position:center;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.memory-caption{
+
+margin-top:16px;
+
+font-size:14px;
+
+color:#4A2C62;
+
+text-align:center;
+
+line-height:1.5;
+
+}
+
+.memory-title{
+
+margin-top:8px;
+
+font-size:12px;
+
+color:#7D4DBC;
+
+text-align:center;
+
+}
+
+.wide-card{
+
+grid-column:1 / -1;
+
+}
+
+.letter-section{
+
+margin-top:40px;
+
+width:520px;
+
+}
+
+.letter-card{
+
+background:rgba(243,233,255,0.95);
+
+border-radius:30px;
+
+padding:30px;
+
+box-shadow:0 25px 40px rgba(93,40,135,.12);
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.letter-header{
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+margin-bottom:18px;
+
+border-bottom:1px solid rgba(0,0,0,.05);
+
+padding-bottom:12px;
+
+}
+
+.letter-header h2{
+
+font-family:'Great Vibes',cursive;
+
+color:#7D4DBC;
+
+font-size:30px;
+
+margin:0;
+
+}
+
+.letter-icon{
+
+display:inline-flex;
+
+width:40px;
+
+height:40px;
+
+align-items:center;
+
+justify-content:center;
+
+border:1px solid rgba(125,77,188,.25);
+
+border-radius:50%;
+
+color:#7D4DBC;
+
+font-size:18px;
+
+background:rgba(245,231,255,.95);
+
+}
+
+.letter-content p{
+
+margin-top:16px;
+
+color:#4A2C62;
+
+line-height:1.8;
+
+font-size:14px;
+
+text-align:left;
+
+}
+
+.letter-content p:first-child{
+
+margin-top:0;
+
+font-weight:600;
+
+}
+
+.letter-signature{
+
+margin-top:20px;
+
+font-family:'Great Vibes',cursive;
+
+font-size:24px;
+
+color:#7D4DBC;
+
+}
+
+.thank-you{
+
+margin-top:40px;
+
+width:520px;
+
+text-align:center;
+
+}
+
+.thank-you h2{
+
+font-size:30px;
+
+color:#7D4DBC;
+
+line-height:1.1;
+
+margin-bottom:14px;
+
+}
+
+.thank-you span{
+
+display:inline-block;
+
+font-size:30px;
+
+margin-left:8px;
+
+}
+
+.thank-you p{
+
+max-width:430px;
+
+margin:0 auto 20px;
+
+color:#6F5B8A;
+
+line-height:1.8;
+
+}
+
+.thank-icons{
+
+display:flex;
+
+justify-content:center;
+
+gap:14px;
+
+font-size:22px;
+
+color:#7D4DBC;
+
+}
+
+.thank-icons span{
+
+background:rgba(245,231,255,.95);
+
+padding:10px 14px;
+
+border-radius:50%;
+
+box-shadow:0 10px 20px rgba(93,40,135,.08);
+
+}
+
+.album{
+
+width:65px;
+height:65px;
+
+border-radius:12px;
+
+background:url("https://picsum.photos/200") center/cover;
+
+}
+
+.song{
+
+flex:1;
+
+}
+
+.song h3{
+
+font-size:16px;
+
+color:#7D4DBC;
+
+}
+
+.song p{
+
+font-size:13px;
+
+color:#888;
+
+margin:5px 0 12px;
+
+}
+
+.progress{
+
+height:6px;
+
+background:#f0d6dc;
+
+border-radius:20px;
+
+overflow:hidden;
+
+}
+
+.bar{
+
+width:55%;
+
+height:100%;
+
+background:#b71d4b;
+
+}
+
+.controls{
+
+display:flex;
+
+justify-content:space-between;
+
+margin-top:12px;
+
+font-size:22px;
+
+color:#b71d4b;
+
+cursor:pointer;
+
+}
+
+/* ============================= */
+/* FLOATING HEARTS */
+/* ============================= */
+
+.hearts span{
+
+position:fixed;
+
+bottom:-50px;
+
+color:#ff6d91;
+
+font-size:22px;
+
+animation:rise linear infinite;
+
+}
+
+.hearts span:nth-child(1){
+
+left:10%;
+animation-duration:8s;
+
+}
+
+.hearts span:nth-child(2){
+
+left:35%;
+animation-duration:11s;
+
+}
+
+.hearts span:nth-child(3){
+
+left:60%;
+animation-duration:9s;
+
+}
+
+.hearts span:nth-child(4){
+
+left:80%;
+animation-duration:13s;
+
+}
+
+@keyframes rise{
+
+from{
+
+transform:translateY(0);
+
+opacity:1;
+
+}
+
+to{
+
+transform:translateY(-110vh);
+
+opacity:0;
+
+}
+
+}
+
+section{
+
+padding-bottom:90px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="hearts">
+
+<span>❤</span>
+<span>❤</span>
+<span>❤</span>
+<span>❤</span>
+
+</div>
+
+<section class="hero">
+
+<div class="sparkle spark1">💖</div>
+
+<div class="sparkle spark2">✨</div>
+
+<div class="sparkle spark3">🎉</div>
+
+<h1>
+
+<span>Happy</span>
+
+<span>Birthday, My Devi!</span>
+
+🎂
+
+</h1>
+
+<p>
+
+Happiest Birthday to my hardworking girlyyy!!!
+I hope that this will put a smile on your face as your day starts hihi
+
+</p>
+
+<div class="cake-box">
+
+<div class="cake">
+
+<div class="layer layer1"></div>
+
+<div class="layer layer2"></div>
+
+<div class="layer layer3"></div>
+
+<div class="candle">
+
+<div class="flame" id="flame"></div>
+
+</div>
+
+</div>
+
+<button onclick="blowCandle()">
+
+BLOW THE CANDLE
+
+</button>
+
+</div>
+
+<div class="music">
+
+<div class="album"></div>
+
+<div class="song">
+
+<h3>A song that reminds me of youuu</h3>
+
+<p>Taylor Swift - I'm Only Me When I'm With You</p>
+
+<div class="progress">
+
+<div class="bar"></div>
+
+</div>
+
+<div class="controls">
+
+<span>⏮</span>
+
+<span id="playBtn">▶</span>
+
+<span>⏭</span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="memories">
+
+<div class="memory-card">
+<div class="memory-photo" style="background-image:url('images/photo_6217772370454761038_y.jpg');"></div>
+<div class="memory-caption">Intern Days</div>
+<div class="memory-title">Thank you for making our intern days a lot easier and happier. You are one of the reasons why hindi ako nag-give up kahit na pagod na ako mentally and physically. Thank you for saving me without knowing that you actually did save me</div>
+</div>
+
+<div class="memory-card">
+<div class="memory-photo" style="background-image:url('images/photo_6150147195554958421_y.jpg');"></div>
+<div class="memory-caption">VIGAAAN</div>
+<div class="memory-title">This was one of my most treasured memories with you guys. First gala din natin ng malayo HAHAHAHAHAHA Sobrang happy ko at that moment kasi finally nakasama ko ikaw sa malayong biyahe hihi missing those days tuloy huhu</div>
+</div>
+
+<div class="memory-card">
+<div class="memory-photo" style="background-image:url('images/photo_6150147195554958495_y.jpg');"></div>
+<div class="memory-caption">My Mom and Dad sa Cof hehe</div>
+<div class="memory-title">You both helped me a lot lalo na recently. Thank you for your concerns. Sobrang pasasalamat ko kay Lord because you guys are working na and thriving. One of my wishes is that you guys will get the life that you want and you deserve. Always rooting for the both of youuu!</div>
+</div>
+
+<div class="memory-card">
+<div class="memory-photo" style="background-image:url('images/photo_6163421668156574880_y.jpg');"></div>
+<div class="memory-caption">Our Rants</div>
+<div class="memory-title">I always love spending time with you especially kapag nagrarant tayo because we get to be vulnerable with each other. Mga iyakan sessions sa CR ng BCT HAHAHAHAHAHAHA Thank you for trusting me!</div>
+</div>
+
+<div class="memory-card">
+<div class="memory-photo" style="background-image:url('images/photo_6262393962517695913_y.jpg');"></div>
+<div class="memory-caption">Last Days of College</div>
+<div class="memory-title">Nung time na'to sobrang ramdam ko na yung blues nasabay pa ang revision ng capstone natin HAHAHAHAHA but then again thank you kasi we made it through together!</div>
+</div>
+
+<div class="memory-card">
+<div class="memory-photo" style="background-image:url('images/photo_6109522809299078783_y.jpg');"></div>
+<div class="memory-caption">FIELDTRIP</div>
+<div class="memory-title">Mga lumalaban sa init ng panahon HAHAHAHAHA naenjoy ko'to super lalo na kumpleto tayo nila Klyde, James, Xyrus and MJ. Finally nagkasama ren sila ng kumpleto sa malayong lugar HAHAHAHAHA</div>
+</div>
+
+<div class="memory-card wide-card">
+<div class="memory-photo" style="background-image:url('images/photo_6149983192228760487_y.jpg');"></div>
+<div class="memory-caption">ABRA</div>
+<div class="memory-title">This photo brings memories sobra. Remembering na hindi na sila nakatulog kakatiktok kaya inaantok na yan sila sa simbahan HAHAHAHAHA Sana marami pa tayong mapuntahan na lugar someday!</div>
+</div>
+
+</div>
+
+<div class="letter-section">
+
+<div class="letter-card">
+
+<div class="letter-header">
+
+<h2>My Heartfelt Letter to My Bebi</h2>
+
+<span class="letter-icon">♡</span>
+
+</div>
+
+<div class="letter-content">
+
+<p>Dear Bebi,</p>
+
+<p>Thank you so much, bebi, for being my friend, especially during the hardest days when I was so difficult to understand and even harder to reach. Thank you for always making an effort to check on me, even though I know you spend most of your day working. It means more to me than you know.</p>
+
+<p>I'm praying that the Lord will continue to bless you with abundance, genuine happiness, good health, and so much love from the people around you because you truly deserve all of it. I hope everyone who comes into your life brings nothing but peace, joy, and love.</p>
+
+<p>I'm always rooting for your success. I know how hardworking and persevering you are, and I pray that every sacrifice you make will be rewarded with countless blessings. May all your prayers come true in God's perfect time.</p>
+<p>Always remember that I'm here for you, no matter what. You are beautiful, you are kind, you are so loved especially by me. Hehe. 🤍</p>
+<P>I LOVE YOU SO MUCH, BEBI! HAPPY, HAPPY BIRTHDAY! 🥳🎂🎉</P>
+<p class="letter-signature">Love by Hacelen </p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="thank-you">
+
+<h2>Thank You for Being Part of My Life <span>❤️</span></h2>
+
+</div>
+
+<audio id="music">
+
+<source src="music/Taylor Swift - I'm Only Me When I'm With You - Taylor Swift (128k).mp3" type="audio/mpeg">
+
+</audio>
+
+<script>
+
+const music=document.getElementById("music");
+
+const play=document.getElementById("playBtn");
+
+function blowCandle(){
+
+document.getElementById("flame").style.display="none";
+
+}
+
+play.onclick=function(){
+
+if(music.paused){
+
+music.play();
+
+play.innerHTML="⏸";
+
+}else{
+
+music.pause();
+
+play.innerHTML="▶";
+
+}
+
+}
+
+</script>
