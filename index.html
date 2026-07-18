@@ -709,6 +709,78 @@ padding-bottom:90px;
 
 }
 
+
+
+/* ============================= */
+/* RESPONSIVE (MOBILE) */
+/* ============================= */
+
+@media (max-width: 700px) {
+
+	body{
+		padding:18px;
+	}
+
+	.hero{
+		padding-top:90px;
+	}
+
+	.hero h1{
+		font-size:44px;
+	}
+
+	.hero p{
+		font-size:15px;
+		color:#7D5B9A;
+		padding:0 6px;
+		max-width:100%;
+	}
+
+	.cake-box, .music, .memories, .letter-section, .thank-you{
+		width:100%;
+		margin-top:20px;
+		padding:0 6px;
+		box-shadow:none;
+	}
+
+	.cake-box{ height:auto; }
+
+	.music{
+		padding:12px;
+		gap:12px;
+	}
+
+	.album{ width:50px; height:50px; }
+
+	.song h3{ font-size:14px; }
+	.song p{ font-size:13px; }
+
+	.progress{ height:6px; }
+
+	.memories{
+		grid-template-columns:1fr;
+		gap:14px;
+	}
+
+	.wide-card{ grid-column:auto; }
+
+	.memory-photo{ border-radius:12px; aspect-ratio:16/10; }
+
+	.memory-caption{ font-size:13px; }
+	.memory-title{ font-size:12px; }
+
+	.letter-card{ padding:18px; border-radius:16px; }
+	.letter-header h2{ font-size:22px; }
+	.letter-signature{ font-size:20px; }
+
+	button{ padding:10px 20px; font-size:14px; }
+
+	.controls{ font-size:18px; }
+
+	.hearts span{ font-size:18px; }
+
+}
+
 </style>
 
 </head>
